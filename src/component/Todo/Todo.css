@@ -1,0 +1,62 @@
+.main_div {
+  background-color: gray;
+  min-height: 100vh;
+  height: auto;
+  padding: 50px;
+}
+.todo_div {
+  background-color: white;
+  width: 60%;
+  padding-top: 15px;
+  margin: 0 auto;
+}
+.todo-main-content-wrapper {
+  padding: 0 15px 15px;
+}
+
+.footer_section {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  background: #d1f2d1;
+}
+.text_box {
+  width: 100%;
+  padding: 8px 5px;
+  box-sizing: border-box;
+}
+
+.todo-completed {
+  text-decoration: line-through;
+}
+
+.footer_section-search-btn {
+  margin-right: 10px;
+  padding-right: 10px;
+}
+
+.icon-padded {
+  padding-left: 10px;
+  cursor: pointer;
+}
+
+.icon-padded.fa-search {
+  border-right: 1px solid;
+}
+
+.todo_div h1 {
+  text-align: center;
+}
+
+.footer-btn {
+  margin: 5px;
+  background: #d1f2d1;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.toto-list {
+  margin: 5px;
+  padding: 5px;
+  border-bottom: 1px solid black;
+}
